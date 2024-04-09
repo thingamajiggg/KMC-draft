@@ -11,14 +11,56 @@ nav{
     justify-content: space-between;
     z-index: 10;
 }
-
-.logo{
-    width: 100px;
+.nav-logo{
+    display: flex;
+    align-items: center;
+    margin: 2%;
 }
 
-nav ul li{
+.nav-logo h1{
+    color: rgb(236, 235, 248);
+    font-size: 38px;
+    font-weight: 600;
+    margin-left: 10%;
+    white-space: nowrap;
+}
+
+.logo{
+    width: 60px;
+}
+
+/* nav ul li{
     display: inline-block;
     list-style: none;
     margin: 5px 20px;
     font-size: 16px;
+} */
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 2%;
+}
+
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+}
+
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: white;
+    margin-top: 5%;
 }
