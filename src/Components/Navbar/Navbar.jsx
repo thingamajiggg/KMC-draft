@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
 import logo from '../../Assets/logo192.png'
@@ -6,8 +6,15 @@ import logo from '../../Assets/logo192.png'
 const Navbar = () => {
   
   const [menu,setMenu] = useState("home");
+  const [sticky, setSticky]=useState(false);
+  useEffect(()=>{
+    window.addEventListener('scroll',()=>{
+      window.scrollY > 50 ?setSticky(true):setSticky(false);
+    })
+  },[]);
+
   return (
-    <nav className='container'>
+    <nav className={`container ${sticky? 'dark-nav':''}`}>
       <div className="nav-logo">
       <img src={logo} alt='' className='logo'/>
       <h1>KMC 63 Trading</h1>
