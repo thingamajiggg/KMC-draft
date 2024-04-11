@@ -6,6 +6,7 @@ import {
   Routes,
 } from "react-router-dom";
 import Home from './Components/Home/Home'
+import About from "./Components/About/About";
 import Hero from "./Components/Hero/Hero"
 import Services from "./Components/Services/Services";
 import Title from "./Components/Title/Title";
@@ -24,6 +25,7 @@ const App = () => {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
+        <Route path='/aboutUs' element={<About category="aboutUs"/>}/>
         <Route path='/coatingServices' element={<Services category="coatingService"/>}/>
       </Routes>
     </Router>
