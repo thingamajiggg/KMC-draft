@@ -5,6 +5,7 @@ import Services from '../Services/Services';
 import About from '../About/About';
 import CompanyPhoto from '../CompanyPhoto/CompanyPhoto';
 import Contact from '../Contact/Contact';
+import Footer from '../Footer/Footer';
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
          <CompanyPhoto/>
          <Title subTitle='Contact Us' title='Get in Touch'/>
          <Contact/>
+         <Footer/>
      </div>
     </div>
   )
