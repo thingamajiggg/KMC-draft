@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import './Navbar.css'
 import logo from '../../Assets/logo192.png'
 import menuIcon from '../../Assets/menuIcon.png'
+import { ScrollLink } from 'react-scroll'
 const Navbar = () => {
   
   const [menu,setMenu] = useState("home");
@@ -25,7 +26,7 @@ const Navbar = () => {
         <ul className={mobileMenu?'' :'hide-mobile-menu'}>
           <li onClick={()=>{setMenu("home")}}><Link style={{textDecoration: 'none',color: 'white'}}to='/'>Home</Link>{menu==="home"?<hr/>:<></>}</li>
           <li onClick={()=>{setMenu("aboutUs")}}><Link style={{textDecoration: 'none',color: 'white'}} to='/aboutUs'>About us</Link>{menu==="aboutUs"?<hr/>:<></>}</li>
-          <li onClick={()=>{setMenu("coatingServices")}}><Link style={{textDecoration: 'none',color: 'white'}} to='/coatingServices'>Services</Link>{menu==="coatingServices"?<hr/>:<></>}</li>
+          <li onClick={()=>{setMenu("Services")}}><Link style={{textDecoration: 'none',color: 'white'}} to='/Services'>Services</Link>{menu==="Services"?<hr/>:<></>}</li>
           <li>Product</li>
           <li><button className='btn'>Contact us</button></li>
 

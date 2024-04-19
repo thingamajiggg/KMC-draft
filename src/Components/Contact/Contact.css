@@ -46,15 +46,30 @@
     width: 100%;
     background: #EBECFE;
     padding: 15px;
-    border: 0;
+    border: 1px solid #ccc; /* Added border */
     outline: 0;
     margin-bottom: 15px;
     margin-top: 5px;
     resize: none;
+    transition: border-color 0.3s ease; /* Added transition for a smoother effect */
+}
 
+.contact form input:focus,
+.contact form textarea:focus {
+    border-color: #007bff; /* Change border color on focus */
 }
 
 .contact-col span{
     display: block;
     margin: 20px 0;
+}
+
+/* media query */
+@media (max-width:700px){
+    .contact{
+        display: block;
+    }
+    .contact-col{
+        padding: 20px;
+    }
 }

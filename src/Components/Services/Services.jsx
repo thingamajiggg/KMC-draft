@@ -1,8 +1,10 @@
-import React from 'react'
+import React, {useState}  from 'react'
 import './Services.css'
 import service1 from '../../Assets/coating.jpg'
 import serviceIcon from '../../Assets/serviceIcon.png'
 import serviceIcon3 from '../../Assets/serviceIcon3.png'
+import { Link } from 'react-router-dom'
+
 
 const Services = () => {
   return (
@@ -17,7 +19,7 @@ const Services = () => {
         <div className="service">
             <img src={service1} alt="" />
             <div className="caption">
-                <img src={serviceIcon3} alt="" />
+            <img src={serviceIcon3} alt="" />
                 <p>Coating service 2</p>
             </div>
         </div>
