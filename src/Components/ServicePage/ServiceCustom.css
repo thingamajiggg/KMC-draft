@@ -1,0 +1,36 @@
+/* ServiceCustom.css */
+.service-custom {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  
+  .service-item {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .service-item h3 {
+    margin-top: 0;
+    font-size: 18px;
+  }
+  
+  .image-row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+  
+  .image-row img {
+    width: 30%;
+    height: auto;
+  }
+  
+  .service-item p {
+    margin-top: 15px;
+    color: #666;
+    font-size: 14px;
+  }
+  

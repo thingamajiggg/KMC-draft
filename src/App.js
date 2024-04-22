@@ -6,10 +6,8 @@ import {
   Routes,
 } from "react-router-dom";
 import Home from './Components/Home/Home'
-import About from "./Components/About/About";
-import Hero from "./Components/Hero/Hero"
-import Services from "./Components/Services/Services";
-import Title from "./Components/Title/Title";
+import AboutPage from "./Components/AboutPage/AboutPage";
+import Services from "./Components/ServicePage/ServicePage";
 
 const App = () => {
   return (
@@ -25,8 +23,8 @@ const App = () => {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/aboutUs' element={<About category="aboutUs"/>}/>
-        <Route path='/coatingServices' element={<Services category="coatingService"/>}/>
+        <Route path='/aboutUs' element={<AboutPage category="aboutUs"/>}/>
+        <Route path='/Services' element={<Services category="Service"/>}/>
       </Routes>
     </Router>
   )

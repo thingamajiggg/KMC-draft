@@ -1,0 +1,49 @@
+.servicehead{
+    display:flex;
+    width: 100%;
+    min-height: 50vh;
+    background: linear-gradient(rgba(161, 150, 230, 0.7),rgba(25, 19, 60, 0.7)), url('../../Assets/testhomePage.jpg');
+    background-size:cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items:center;
+    justify-content:left;
+}
+
+.servicehead-text{
+    text-align: Left;
+    max-width: 800px;;
+}
+
+.servicehead-text h1{
+    text-align: left;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.servicehead-text p{
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+}
+
+/* media query */
+
+@media (max-width: 850px){
+    .servicehead-text h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 650px){
+    .servicehead-text h1{
+        font-size: 30px;
+        max-width: 400px;
+        margin: auto;
+    }
+    .servicehead-text p {
+        font-size: 14px;
+        margin: 15px auto 30px;
+    }
+}
