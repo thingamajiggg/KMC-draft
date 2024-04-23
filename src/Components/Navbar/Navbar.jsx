@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
-import logo from '../../Assets/logo192.png'
+import logo from '../../Assets/KMCLogoWhite.png'
 import menuIcon from '../../Assets/menuIcon.png'
 import { ScrollLink } from 'react-scroll'
 const Navbar = () => {
