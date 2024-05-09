@@ -1,0 +1,15 @@
+.servicetitle{
+    text-align: left;
+    color: #212EA0;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 70px 0 30px;
+}
+
+.servicetitle h2{
+    font-size: 32px;
+    color: #000F38;
+    margin-bottom: 30px;
+    text-transform: none;
+}

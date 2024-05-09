@@ -7,57 +7,80 @@ import locaIcon from '../../Assets/location.png'
 import whiteArrow from '../../Assets/whiteArrow.png'
 
 const Contact = () => {
-  const [result, setResult] = React.useState("");
+    const [result, setResult] = React.useState("");
 
-  const onSubmit = async (event) => {
-    event.preventDefault();
-    setResult("Sending....");
-    const formData = new FormData(event.target);
+    const onSubmit = async (event) => {
+        event.preventDefault();
+        setResult("Sending....");
+        const formData = new FormData(event.target);
 
-    formData.append("access_key", "b5e32b6b-abd4-4f28-be35-f0e7171a8cdc");
+        formData.append("access_key", "b5e32b6b-abd4-4f28-be35-f0e7171a8cdc");
 
-    const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      body: formData
-    });
+        const response = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            body: formData
+        });
 
-    const data = await response.json();
+        const data = await response.json();
 
-    if (data.success) {
-      setResult("Form Submitted Successfully");
-      event.target.reset();
-    } else {
-      console.log("Error", data);
-      setResult(data.message);
-    }
-  };
+        if (data.success) {
+            setResult("Form Submitted Successfully");
+            event
+                .target
+                .reset();
+        } else {
+            console.log("Error", data);
+            setResult(data.message);
+        }
+    };
 
-
-  return (
-    <div className='contact'>
-        <div className="contact-col">
-            <h3>Send us message <img src={msg_icon} alt="" /> </h3>
-            <p>Feel free to reach us </p>
-            <ul>
-              <li><img src={mailicon} alt="" /> Contact@Wkeong_00</li>
-              <li><img src={phoneIcon} alt="" />  +6012345678</li>
-              <li><img src={locaIcon} alt="" /> maxim majestic, 56000</li>
-            </ul>
+    return (
+        <div className='contact'>
+            <div className="contact-col">
+                <h3>Send us message
+                    <img src={msg_icon} alt=""/>
+                </h3>
+                <p>Feel free to reach us
+                </p>
+                <ul>
+                    <li><img src={mailicon} alt=""/>
+                        kmc63trading@gmail.com</li>
+                    <li><img src={phoneIcon} alt=""/>
+                        +60123322898</li>
+                    <li><img src={locaIcon} alt=""/>
+                        No.1, Jalan Com Industrial Park2/1, Com Industrial Park 2, kawasan Perindustrian
+                        Kg.Baru Balakong, 43300 Seri Kembangan, Selangor Darul Ehsan. Malaysia</li>
+                </ul>
+            </div>
+            <div className="contact-col">
+                <form onSubmit={onSubmit}>
+                    <label>Your name
+                    </label>
+                    <input
+                        type="text"
+                        name='name'
+                        placeholder='Enter your name'
+                        required="required"/>
+                    <label>Phone number
+                    </label>
+                    <input
+                        type="tel"
+                        name='phone'
+                        placeholder='Enter your mobile number'
+                        required="required"/>
+                    <label>Write your message here</label>
+                    <textarea
+                        name="message"
+                        rows="6"
+                        placeholder='Enter your message'
+                        required="required"></textarea>
+                    <button type='submit' className='btn dark-btn'>Submit now
+                        <img src={whiteArrow} alt=""/></button>
+                </form>
+                <span>{result}</span>
+            </div>
         </div>
-        <div className="contact-col">
-          <form onSubmit={onSubmit}>
-            <label>Your name </label>
-            <input type="text" name='name' placeholder='Enter your name' required/>
-            <label>Phone number </label>
-            <input type="tel" name='phone' placeholder='Enter your mobile number' required/>
-            <label>Write your message here</label>
-            <textarea name="message" rows="6" placeholder='Enter your message' required></textarea>
-            <button type='submit' className='btn dark-btn'>Submit now <img src={whiteArrow} alt="" /></button>
-          </form>
-          <span>{result}</span>
-        </div>
-    </div>
-  )
+    )
 }
 
 export default Contact
