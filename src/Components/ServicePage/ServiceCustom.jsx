@@ -14,7 +14,15 @@ const ServiceCustom = () => {
         <div className="servicescustom">
             <div className="servicetitle">
                 <h2>Coating Service</h2>
-                <p>We using paint to coat the pan for keep the pan hold the temparatyre</p>
+                <p>我们的涂层服务，达到最高的卫生和效率标准，也非常耐用，
+                    如果您的盘子有损坏需要维护或重新涂层，我们都能够为您
+                    进行维护以及重新上色，以延长您的烤盘的性能与寿命。如果
+                    有问题请立即向我们联系！</p>
+                <p>Our coating service meets the highest standards of hygiene and efficiency and
+                    is highly durable. If your trays are damaged and require maintenance or
+                    recoating, we can provide maintenance and recoating services to extend the
+                    performance and lifespan of your trays. Please contact us immediately if you
+                    have any issues!</p>
             </div>
 
             <div className="servicesrow">
