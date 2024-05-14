@@ -44,7 +44,7 @@
 
 .servicetitle{
   text-align: left;
-  color: #212EA0;
+  color: #000F38;
   font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
@@ -53,13 +53,16 @@
 
 .servicetitle h2{
   font-size: 32px;
-  color: #000F38;
-  margin-bottom: 30px;
+  color:#212EA0;
   text-transform: none;
+  margin: 30px;
+}
+.servicetitle p{
+  margin: 30px;
 }
 
 .servicesrow {
-    margin: 80px auto;
+    margin: 30px auto;
     width: 90%;
     display: flex;
     align-items: center;
@@ -75,6 +78,8 @@
 .servicecus {
     flex-basis: 31%;
     position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
 
 .captioncus {

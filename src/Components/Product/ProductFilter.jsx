@@ -20,7 +20,7 @@ const ProductFilter = () => {
     return (
         <div className='container'>
             <div className="row">
-                <h1 className='text-center'>Products</h1>
+                <h1>Products</h1>
                 <Button
                     menuItems={menuItems}
                     filterItems={filterItems}
