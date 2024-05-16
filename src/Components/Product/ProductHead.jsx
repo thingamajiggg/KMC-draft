@@ -7,7 +7,8 @@ const ProductHead = () => {
             <div className="ProductHead-text">
                 <h1>Our products</h1>
                 <p>
-                    Our products including Bun tray, steamer, and trolley.</p>
+                    Explore our range of durable customized products including bun trays,
+                    steamers, trolleys and more to meet your commercial and industrial needs.</p>
             </div>
         </div>
     )

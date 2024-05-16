@@ -58,7 +58,10 @@
   margin: 30px;
 }
 .servicetitle p{
-  margin: 30px;
+  margin-left: 80px;
+  margin-right: 200px;
+  margin-bottom: 30px;
+  line-height: 1.6;
 }
 
 .servicesrow {

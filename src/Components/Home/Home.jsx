@@ -18,8 +18,8 @@ const Home = () => {
                 <About/>
                 <Title subTitle='Gallery' title='Company photo'/>
                 <CompanyPhoto/>
-                <Title subTitle='Our Client' title='Trusted By'/>
-                <ClientPage/>
+                {/* <Title subTitle='Our Client' title='Trusted By'/>
+                <ClientPage/> */}
                 <Title subTitle='Contact Us' title='Get in Touch'/>
                 <Contact/>
                 <Footer/>
