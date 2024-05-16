@@ -6,6 +6,7 @@ import About from '../About/About';
 import CompanyPhoto from '../CompanyPhoto/CompanyPhoto';
 import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
+import ClientPage from '../ClientReview/ClientPage';
 
 const Home = () => {
     return (
@@ -17,6 +18,8 @@ const Home = () => {
                 <About/>
                 <Title subTitle='Gallery' title='Company photo'/>
                 <CompanyPhoto/>
+                <Title subTitle='Our Client' title='Trusted By'/>
+                <ClientPage/>
                 <Title subTitle='Contact Us' title='Get in Touch'/>
                 <Contact/>
                 <Footer/>
