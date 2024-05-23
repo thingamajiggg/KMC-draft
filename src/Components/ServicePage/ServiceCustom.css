@@ -43,29 +43,29 @@
 }
 
 .servicetitle{
-  text-align: left;
+  /* text-align: left;
   color: #000F38;
   font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
-  margin: 70px 0 30px;
+  margin: 70px 0 30px; */
+  flex-basis: 56%;
 }
 
 .servicetitle h2{
   font-size: 32px;
   color:#212EA0;
   text-transform: none;
-  margin: 30px;
+  margin: 40px 0;
 }
 .servicetitle p{
-  margin-left: 80px;
-  margin-right: 200px;
   margin-bottom: 30px;
   line-height: 1.6;
 }
 
 .servicesrow {
     margin: 30px auto;
+    margin-bottom: 100px;
     width: 90%;
     display: flex;
     align-items: center;
@@ -119,5 +119,8 @@
     .servicecus {
         flex-basis: 100%;
         margin: 20px;
+    }
+    .servicetitle p{
+      flex-basis: 100%;
     }
 }

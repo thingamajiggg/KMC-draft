@@ -244,8 +244,7 @@ h1 {
     }
     .card {
         width: calc(100% - 20px); /* 100% width for 1 card in a row with margin */
-        margin-right: 40px; /* Remove right margin for the card */
-        margin-left: 50px;
+        flex-basis: 100%;
     }
     .buttonProduct{
         justify-content: center;
