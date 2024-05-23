@@ -4,11 +4,13 @@ import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import Home from './Components/Home/Home'
 import AboutPage from "./Components/AboutPage/AboutPage";
 import Services from "./Components/ServicePage/ServicePage";
-import Product from "./Components/Product/ProductPage"
+import Product from "./Components/Product/ProductPage";
+import ScrollToTop from './Components/ScrollToTop';
 
 const App = () => {
     return (
         <Router>
+            <ScrollToTop/>
             <Navbar/>
             <Routes>
                 <Route path='/KMC-draft' element={<Home/>}/>
