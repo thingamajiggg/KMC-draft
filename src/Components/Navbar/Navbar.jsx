@@ -24,7 +24,7 @@ const Navbar = () => {
     <nav className={`container ${sticky? 'dark-nav':''}`}>
       <img src={logo} alt='' className='logo'/>
         <ul className={mobileMenu?'' :'hide-mobile-menu'}>
-          <li onClick={()=>{setMenu("home")}}><Link style={{textDecoration: 'none',color: 'white'}}to='/'>Home</Link>{menu==="home"?<hr/>:<></>}</li>
+          <li onClick={()=>{setMenu("home")}}><Link style={{textDecoration: 'none',color: 'white'}}to='/KMC-draft'>Home</Link>{menu==="home"?<hr/>:<></>}</li>
           <li onClick={()=>{setMenu("aboutUs")}}><Link style={{textDecoration: 'none',color: 'white'}} to='/aboutUs'>About us</Link>{menu==="aboutUs"?<hr/>:<></>}</li>
           <li onClick={()=>{setMenu("Services")}}><Link style={{textDecoration: 'none',color: 'white'}} to='/Services'>Services</Link>{menu==="Services"?<hr/>:<></>}</li>
           <li onClick={()=>{setMenu("Products")}}><Link style={{textDecoration: 'none',color: 'white'}} to='/Products'>Products</Link>{menu==="Products"?<hr/>:<></>}</li>
