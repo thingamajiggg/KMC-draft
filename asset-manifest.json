@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/KMC-draft/static/css/main.4d6c4fbc.css",
+    "main.css": "/KMC-draft/static/css/main.cf6a5128.css",
     "main.js": "/KMC-draft/static/js/main.414555cf.js",
     "static/js/453.99dcf01f.chunk.js": "/KMC-draft/static/js/453.99dcf01f.chunk.js",
     "static/media/factoryproducPic.jpg": "/KMC-draft/static/media/factoryproducPic.c690365d5a80323616a9.jpg",
@@ -32,12 +32,12 @@
     "static/media/telephone-call.png": "/KMC-draft/static/media/telephone-call.788adb5ad58479e1e384.png",
     "static/media/email.png": "/KMC-draft/static/media/email.51b08bcbb5af7a861c31.png",
     "index.html": "/KMC-draft/index.html",
-    "main.4d6c4fbc.css.map": "/KMC-draft/static/css/main.4d6c4fbc.css.map",
+    "main.cf6a5128.css.map": "/KMC-draft/static/css/main.cf6a5128.css.map",
     "main.414555cf.js.map": "/KMC-draft/static/js/main.414555cf.js.map",
     "453.99dcf01f.chunk.js.map": "/KMC-draft/static/js/453.99dcf01f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d6c4fbc.css",
+    "static/css/main.cf6a5128.css",
     "static/js/main.414555cf.js"
   ]
 }
