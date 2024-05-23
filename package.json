@@ -1,5 +1,5 @@
 {
-  "homepage": "https://thingamajiggg.github.io/KMC-draft",
+  "homepage": "https://thingamajiggg.github.io/KMC-Final",
   "name": "my-react-app",
   "version": "0.1.0",
   "private": true,
@@ -21,11 +21,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -44,5 +44,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh": "^2.8.9",
+    "pages": "^0.0.16"
   }
 }
