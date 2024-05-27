@@ -13,7 +13,7 @@ const App = () => {
             <ScrollToTop/>
             <Navbar/>
             <Routes>
-                <Route path='/KMC-draft' element={<Home/>}/>
+                <Route path='/' element={<Home/>}/>
                 <Route path='/aboutUs' element={<AboutPage category = "aboutUs" />}/>
                 <Route path='/Services' element={<Services category = "Service" />}/>
                 <Route path='/Products' element={<Product category = "Product" />}/>
