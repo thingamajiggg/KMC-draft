@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "KMC 63",
+  "name": "KMC 63 Trading - Customizable Bun Trays and Baking Pans",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,7 +8,7 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "customfavicon.png",
       "type": "image/png",
       "sizes": "192x192"
     },
