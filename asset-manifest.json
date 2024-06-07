@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.7450fdec.css",
-    "main.js": "/static/js/main.12ed2c89.js",
+    "main.css": "/static/css/main.b52ef529.css",
+    "main.js": "/static/js/main.a569f584.js",
     "static/js/453.99dcf01f.chunk.js": "/static/js/453.99dcf01f.chunk.js",
     "static/media/factoryproducPic.jpg": "/static/media/factoryproducPic.c690365d5a80323616a9.jpg",
     "static/media/aboutusPic.jpg": "/static/media/aboutusPic.b31da3e4a861ddb3b7b2.jpg",
     "static/media/coating.jpg": "/static/media/coating.05bb50cfbf8dc5cccd8c.jpg",
-    "static/media/custom3.jpg": "/static/media/custom3.e25630ce6d224b68020d.jpg",
     "static/media/mixerrenew.jpg": "/static/media/mixerrenew.431cd3a476e26dfb6db1.jpg",
-    "static/media/coating11.jpg": "/static/media/coating11.50963e64cb0d3260b8ec.jpg",
     "static/media/coating1.jpg": "/static/media/coating1.62078f4d6c1bd5bf9f0a.jpg",
     "static/media/backgPic.jpg": "/static/media/backgPic.cc72eb07a18e5ca492a1.jpg",
     "static/media/company4.jpg": "/static/media/company4.c9b3c4ac11b5eb913ed4.jpg",
     "static/media/company2.jpg": "/static/media/company2.23f1d111d11171ec4032.jpg",
-    "static/media/company3.jpg": "/static/media/company3.4931c64e1cf7dfc5ca81.jpg",
+    "static/media/bakeremove1.png": "/static/media/bakeremove1.d2342790a54fc2dabae2.png",
     "static/media/company1.jpg": "/static/media/company1.0751868c74981f91b9ef.jpg",
+    "static/media/bakeremove 2.png": "/static/media/bakeremove 2.a387c48978d039d6659a.png",
+    "static/media/trayremove1.png": "/static/media/trayremove1.bb68ac0c9bdceb7b8181.png",
+    "static/media/oldbakingtray.png": "/static/media/oldbakingtray.88072b43a97cea293aee.png",
+    "static/media/complatetray.png": "/static/media/complatetray.1ac663f8b2ebc1eab4c0.png",
+    "static/media/bakeremove3.png": "/static/media/bakeremove3.a35cc743bb023b60751e.png",
+    "static/media/recontray.png": "/static/media/recontray.f29630f90d96f4a3b432.png",
     "static/media/productpage.png": "/static/media/productpage.7153f00a185972ae62dd.png",
     "static/media/JS-GS02.png": "/static/media/JS-GS02.6de80d321c5835e81a3b.png",
     "static/media/JS-GS01-Steamer.png": "/static/media/JS-GS01-Steamer.6fd566dad6fb08bfcc06.png",
@@ -32,12 +36,12 @@
     "static/media/telephone-call.png": "/static/media/telephone-call.788adb5ad58479e1e384.png",
     "static/media/email.png": "/static/media/email.51b08bcbb5af7a861c31.png",
     "index.html": "/index.html",
-    "main.7450fdec.css.map": "/static/css/main.7450fdec.css.map",
-    "main.12ed2c89.js.map": "/static/js/main.12ed2c89.js.map",
+    "main.b52ef529.css.map": "/static/css/main.b52ef529.css.map",
+    "main.a569f584.js.map": "/static/js/main.a569f584.js.map",
     "453.99dcf01f.chunk.js.map": "/static/js/453.99dcf01f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7450fdec.css",
-    "static/js/main.12ed2c89.js"
+    "static/css/main.b52ef529.css",
+    "static/js/main.a569f584.js"
   ]
 }
