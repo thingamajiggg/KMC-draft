@@ -26,7 +26,7 @@ nav ul li{
 }
 
 .dark-nav{
-    background: #212970;
+    background: #162c31;
     transition: 0.5s;
 }
 
@@ -53,7 +53,7 @@ nav ul li{
         top: 0;
         right: 0px;
         bottom: 0;
-        background: #212EA0;
+        background: #162c31;
         z-index: -1;
         width: 200px;
         padding-top: 70px;
