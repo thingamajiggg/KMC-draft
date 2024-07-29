@@ -2,7 +2,7 @@
     display:flex;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(161, 150, 230, 0.7),rgba(25, 19, 60, 0.7)), url('../../Assets/backgPic.jpg');
+    background: linear-gradient(rgba(94, 93, 104, 0.7),rgba(29, 28, 33, 0.7)), url('../../Assets/backgPic.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;

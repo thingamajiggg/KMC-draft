@@ -7,7 +7,7 @@ import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 const Footer = () => {
     return (
         <div className='footer'>
-            <p>Copyright © 2024. All right reserved</p>
+            <p>Copyright © 2024. kmc63trading (002944165P / 201903066683) All right reserved</p>
             <ul>
                 <li>Terms of Service</li>
                 <li>Privacy policy</li>
