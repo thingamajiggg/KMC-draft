@@ -8,6 +8,8 @@ import JS30308 from '../../Assets/JS30308.png'
 import JSGS01 from '../../Assets/JS-GS01-Steamer.png'
 import JSGS02 from '../../Assets/JS-GS02.png'
 import Trolley from '../../Assets/Trolley.png'
+import thirdgen from '../../Assets/thirdgen.png'
+import fourth from '../../Assets/fourth.png'
 
 const ProductsDetails = () => {
     return [
@@ -71,6 +73,20 @@ const ProductsDetails = () => {
             category: "Trolley",
             img: Trolley,
             desc: "Bakery Trolley (For 720 x 460 baking tray)"
+        },
+        {
+            id: "11",
+            title: "JSGS02",
+            category: "Steamer",
+            img: thirdgen,
+            desc: "Third gen Multipurpose Steamer with Trolley"
+        },
+        {
+            id: "12",
+            title: "JSGS03",
+            category: "Steamer",
+            img: fourth,
+            desc: "Fourth Gen Multipurpose Steamer with Trolley"
         }
     ]
 }
